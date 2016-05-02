@@ -9,7 +9,7 @@ CREATE TABLE [dbo].[ReportDefinition](
 	[dateGranularity] [nvarchar](20) NOT NULL,
 	[elements] [nvarchar](2000) NOT NULL,
 	[metrics] [nvarchar](2000) NOT NULL,
-	[segements] [nvarchar](2000) NULL,
+	[segments] [nvarchar](2000) NULL,
 	[DestinationTable] [nvarchar](50) NOT NULL
 )
 GO
