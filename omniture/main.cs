@@ -359,7 +359,7 @@ namespace Omniture
         {
             string reportSuiteID, dateFrom, dateTo, dateGranulatity, elementcsv, metricscsv, segmentscsv, destination;
             string[] elements, metrics, segments;
-            string sqlcmd = "select reportSuiteID, dateFrom, dateTo, dateGranularity, elements, metrics, segements, DestinationTable from " + repreqtbl + " where Enabled=1 order by ExecutionOrder";
+            string sqlcmd = "select reportSuiteID, dateFrom, dateTo, dateGranularity, elements, metrics, segments, DestinationTable from " + repreqtbl + " where Enabled=1 order by ExecutionOrder";
             List<ReportRequest> reports = new List<ReportRequest> { };
 
             SqlConnection cn = new SqlConnection(constr);
